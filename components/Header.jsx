@@ -2,6 +2,14 @@ import React,{useState,useEffect} from 'react'
 import Wrapper from "./Wrapper";
 import Link from "next/link";
 import Menu from "./Menu";
+
+
+import {IoMdHeartEmpty} from "react-icons/io";
+import {BsCart} from "react-icons/bs";
+import {BiMenuAltLeft} from "react-icons/bi";
+import { VscChromeClose} from "react-icons/vsc";
+
+
 const Header = () => {
   const [mobileMenu,setMobileMenu] = useState(false);
   const [showCatMenu, setShowCatMenu] = useState(false);

@@ -1,4 +1,6 @@
 import React from 'react'
+import Link from "next/link";
+import {BsChevronDown} from "react-icons/bs"
 
 const data = [
     { id: 1, name: "Home", url: "/" },
@@ -16,7 +18,21 @@ const subMenuData = [
 const Menu = () => {
   return (
    <ul className="hidden md:flex items-center gap-8 font-medium text-black">
-
+       {data.map((item)=>{
+        return (
+            <React.Fragment key={item.id}>
+                {
+                  !!item?.subMenu ? "submenu" : (
+                       <li className="cursor-pointer">
+                        <Link>
+                        {item.name}
+                        </Link>
+                       </li>
+                  )  
+                }
+            </React.Fragment>
+        )
+       })}
    </ul>
   )
 }

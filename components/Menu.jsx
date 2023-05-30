@@ -2,7 +2,9 @@ import React from 'react'
 
 const Menu = () => {
   return (
-    <div>Menu</div>
+   <ul className="hidden md:flex items-center gap-8 font-medium text-black">
+    
+   </ul>
   )
 }
 

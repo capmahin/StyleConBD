@@ -26,6 +26,7 @@ const Menu = () => {
                     {
                         item.name
                     }
+                    <BsChevronDown size={14}/>
                   </li> : (
                        <li className="cursor-pointer">
                         <Link href={item?.url}>

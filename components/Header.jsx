@@ -1,7 +1,7 @@
 import React,{useState,useEffect} from 'react'
 import Wrapper from "./Wrapper";
 import Link from "next/link";
-
+import Menu from "./Menu";
 const Header = () => {
   const [mobileMenu,setMobileMenu] = useState(false);
   const [showCatMenu, setShowCatMenu] = useState(false);
@@ -14,7 +14,7 @@ const Header = () => {
         <Link href="/">
         <img src="/logo.svg" className="w-[40px] md:w-[60px]" />
         </Link>
-        
+        <Menu/>
       </Wrapper>
 
     </header>

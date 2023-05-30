@@ -24,7 +24,7 @@ const Menu = () => {
                 {
                   !!item?.subMenu ? "submenu" : (
                        <li className="cursor-pointer">
-                        <Link>
+                        <Link href={item?.url}>
                         {item.name}
                         </Link>
                        </li>

@@ -22,7 +22,9 @@ export default function App({ Component, pageProps }) {
     rel="stylesheet"
 />
       </Head>
+      <Header/>
   <Component {...pageProps} />
+      <Footer/>
   </>
   )
 }

@@ -10,7 +10,9 @@ const Header = () => {
   return (
     <header className={`w-full h-[50px] md:h-[80px] bg-white flex items-center justify-between z-20 top-0 transition-transform duration-300 ${show}`}>
       
-      <Wrapper>Header Section</Wrapper>
+      <Wrapper>
+        <img src="/logo.svg" className="w-[40px] md:w-[60px]" />
+      </Wrapper>
 
     </header>
   )

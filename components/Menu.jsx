@@ -27,6 +27,20 @@ const Menu = ({showCatMenu,setShowCatMenu}) => {
                         item.name
                     }
                     <BsChevronDown size={14}/>
+                    {showCatMenu && (
+                        <ul>
+                            {subMenuData.map((submenu)=>{
+                                return (
+                                    <Link key={submenu.id} href="/">
+                                        <li>
+                                            {submenu.name}
+                                            <span>78</span>
+                                        </li>
+                                    </Link>
+                                )
+                            })}
+                        </ul>
+                    )}
                   </li> : (
                        <li className="cursor-pointer">
                         <Link href={item?.url}>

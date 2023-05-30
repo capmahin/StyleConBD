@@ -15,7 +15,7 @@ const subMenuData = [
     { id: 3, name: "Running shoes", doc_count: 64 },
     { id: 4, name: "Football shoes", doc_count: 107 },
 ];
-const Menu = () => {
+const Menu = ({showCatMenu,setShowCatMenu}) => {
   return (
    <ul className="hidden md:flex items-center gap-8 font-medium text-black">
        {data.map((item)=>{

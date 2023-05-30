@@ -24,6 +24,7 @@ const Menu = ({showCatMenu,setShowCatMenu}) => {
                 {
                   !!item?.subMenu ? <li className="cursor-pointer flex items-center gap-2 relative"
                   onMouseEnter={()=> setShowCatMenu(true)}
+                  onMouseLeave={()=> setShowCatMenu(false)}
                   >
                     {
                         item.name

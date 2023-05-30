@@ -1,8 +1,8 @@
 import React from 'react'
 
-const Wrapper = () => {
+const Wrapper = ({children, className}) => {
   return (
-    <div>Wrapper</div>
+    <div className={`w-full max-w-[1280px] px-5 md:px-10 mx-auto ${className}`}>Wrapper</div>
   )
 }
 

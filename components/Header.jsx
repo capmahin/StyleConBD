@@ -14,7 +14,7 @@ const Header = () => {
         <Link href="/">
         <img src="/logo.svg" className="w-[40px] md:w-[60px]" />
         </Link>
-        <Menu/>
+        <Menu showCatMenu={showCatMenu}/>
       </Wrapper>
 
     </header>

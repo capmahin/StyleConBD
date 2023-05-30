@@ -22,7 +22,7 @@ const Menu = () => {
         return (
             <React.Fragment key={item.id}>
                 {
-                  !!item?.subMenu ? "submenu" : (
+                  !!item?.subMenu ? <li className="cursor-pointer flex items-center"></li> : (
                        <li className="cursor-pointer">
                         <Link href={item?.url}>
                         {item.name}

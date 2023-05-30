@@ -32,7 +32,7 @@ const Menu = ({showCatMenu,setShowCatMenu}) => {
                             {subMenuData.map((submenu)=>{
                                 return (
                                     <Link key={submenu.id} href="/">
-                                        <li>
+                                        <li className="h-12 flex justify-between items-center px-3 hover:bg-black/[0.03]">
                                             {submenu.name}
                                             <span>78</span>
                                         </li>

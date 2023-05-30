@@ -6,7 +6,7 @@ const Header = () => {
   const [show, setShow] = useState("translate-y-0");
   const [lastScrollY, setLastScrollY] = useState(0);
   return (
-    <div>Header</div>
+    <header className={`w-full h-[50px]`}>Header</header>
   )
 }
 

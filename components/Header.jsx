@@ -6,7 +6,7 @@ import Menu from "./Menu";
 
 import {IoMdHeartEmpty} from "react-icons/io";
 import {BsCart} from "react-icons/bs";
-import {BiMenuAltLeft} from "react-icons/bi";
+import {BiMenuAltLeft, BiMenuAltRight} from "react-icons/bi";
 import { VscChromeClose} from "react-icons/vsc";
 
 
@@ -46,7 +46,7 @@ const Header = () => {
                       onClick={()=> setMobileMenu(false)}
                       />
                 ) : (
-                  <VscChromeClose className="text-[20px]"
+                  <BiMenuAltRight className="text-[20px]"
                   onClick={()=> setMobileMenu(true)}
                   />
                 )

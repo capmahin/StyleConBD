@@ -25,7 +25,9 @@ const Header = () => {
         </Link>
         <Menu showCatMenu={showCatMenu} setShowCatMenu={setShowCatMenu}/>
 
-        <MenuMobile/>
+        <MenuMobile showCatMenu={showCatMenu} setShowCatMenu={setShowCatMenu}
+        setMobileMenu = {setMobileMenu}
+        />
 
         <div className="flex items-center gap-2 text-black">
           {/* icon start */}

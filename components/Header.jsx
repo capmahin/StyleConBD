@@ -39,6 +39,19 @@ const Header = () => {
 
              </div>
              {/* icon end */}
+             <div  className="w-8 md:w-12 h-8 md:h-12 rounded-full justify-center items-center hover:bg-black/[0.05] cursor-pointer relative">
+              {
+                mobileMenu ? (
+                      <VscChromeClose className="text-[16px]"
+                      onClick={()=> setMobileMenu(false)}
+                      />
+                ) : (
+                  <VscChromeClose className="text-[16px]"
+                  onClick={()=> setMobileMenu(false)}
+                  />
+                )
+              }
+             </div>
         </div>
         
       </Wrapper>

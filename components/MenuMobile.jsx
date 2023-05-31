@@ -26,10 +26,13 @@ const MenuMobile = ({showCatMenu,setShowCatMenu,setMobileMenu}) => {
                   onMouseEnter={()=> setShowCatMenu(true)}
                   onMouseLeave={()=> setShowCatMenu(false)}
                   >
+                    <div>
                     {
                         item.name
                     }
                     <BsChevronDown size={14}/>
+                    </div>
+                   
                     {showCatMenu && (
                         <ul className="bg-white absolute top-6 left-0 min-w-[250px ] px-1 py-1 text-black shadow-lg">
                             {subMenuData.map((submenu)=>{
@@ -46,7 +49,7 @@ const MenuMobile = ({showCatMenu,setShowCatMenu,setMobileMenu}) => {
                     )}
                   </li> : (
                        <li className="cursor-pointer">
-                        <Link href={item?.url}>
+                        <Link href={item?.url} onClick={()=> setMobileMenu(false)}>
                         {item.name}
                         </Link>
                        </li>

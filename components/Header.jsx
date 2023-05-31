@@ -54,6 +54,7 @@ const Header = () => {
                 )
               }
              </div>
+             {/* mobile icon end */}
         </div>
         
       </Wrapper>

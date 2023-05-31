@@ -2,6 +2,7 @@ import React,{useState,useEffect} from 'react'
 import Wrapper from "./Wrapper";
 import Link from "next/link";
 import Menu from "./Menu";
+import MenuMobile from "./MenuMobile";
 
 
 import {IoMdHeartEmpty} from "react-icons/io";
@@ -23,6 +24,8 @@ const Header = () => {
         <img src="/logo.svg" className="w-[40px] md:w-[60px]" />
         </Link>
         <Menu showCatMenu={showCatMenu} setShowCatMenu={setShowCatMenu}/>
+
+        <MenuMobile/>
 
         <div className="flex items-center gap-2 text-black">
           {/* icon start */}

@@ -46,8 +46,8 @@ const Header = () => {
                       onClick={()=> setMobileMenu(false)}
                       />
                 ) : (
-                  <VscChromeClose className="text-[16px]"
-                  onClick={()=> setMobileMenu(false)}
+                  <VscChromeClose className="text-[20px]"
+                  onClick={()=> setMobileMenu(true)}
                   />
                 )
               }

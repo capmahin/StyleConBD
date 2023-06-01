@@ -22,9 +22,8 @@ const MenuMobile = ({showCatMenu,setShowCatMenu,setMobileMenu}) => {
         return (
             <React.Fragment key={item.id}>
                 {
-                  !!item?.subMenu ? <li className="cursor-pointer flex items-center gap-2 relative"
-                  onMouseEnter={()=> setShowCatMenu(true)}
-                  onMouseLeave={()=> setShowCatMenu(false)}
+                  !!item?.subMenu ? <li className="cursor-pointer py-4 px-5 border-b flex flex-col relative"
+                  onClick={()=>setShowCatMenu(false)}
                   >
                     <div>
                     {

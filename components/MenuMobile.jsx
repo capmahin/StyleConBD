@@ -33,7 +33,7 @@ const MenuMobile = ({showCatMenu,setShowCatMenu,setMobileMenu}) => {
                     </div>
                    
                     {showCatMenu && (
-                        <ul className="bg-white absolute top-6 left-0 min-w-[250px ] px-1 py-1 text-black shadow-lg">
+                        <ul className="bg-black/[0.05] -mx-5 mt-4 -mb-4">
                             {subMenuData.map((submenu)=>{
                                 return (
                                     <Link key={submenu.id} href="/"  onClick={() => {

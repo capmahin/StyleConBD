@@ -44,7 +44,7 @@ const MenuMobile = ({showCatMenu,setShowCatMenu,setMobileMenu}) => {
                                             false
                                         );
                                     }}>
-                                        <li className="h-12 flex justify-between items-center px-3 hover:bg-black/[0.03] rounded-md">
+                                        <li className="py-4 px-8 border-t flex justify-between">
                                             {submenu.name}
                                             <span className="opacity-50 text-sm">78</span>
                                         </li>

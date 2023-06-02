@@ -1,6 +1,6 @@
 export default function Home() {
   return (
-    <main className="h-[2000px]">
+    <main>
       Home Page ....
     </main>
   )

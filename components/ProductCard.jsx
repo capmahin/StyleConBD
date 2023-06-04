@@ -13,8 +13,11 @@ const ProductCard = () => {
       <p className="mr-2 text-lg font-semibold">
                         $20.00
                     </p>
-                    <p className="ml-auto text-base font-medium text-green-500">
+                    <p className="text-base  font-medium line-through">
                          $25.00
+                    </p>
+                    <p className="ml-auto text-base font-medium text-green-500">
+                      20% off
                     </p>
       </div>
       </div>

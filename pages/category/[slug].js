@@ -4,6 +4,7 @@ import Wrapper from "@/components/Wrapper";
 import ProductCard from "@/components/ProductCard";
 const Category = () => {
   const router = useRouter();
+  const {slug} = router.query;
   return (
     <div>Category</div>
   )

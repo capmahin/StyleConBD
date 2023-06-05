@@ -1,9 +1,10 @@
 import React from 'react'
-
-const [slug] = () => {
+import Wrapper from "@/components/Wrapper";
+import ProductCard from "@/components/ProductCard";
+const Category = () => {
   return (
-    <div>[slug]</div>
+    <div>Category</div>
   )
 }
 
-export default [slug]
+export default Category

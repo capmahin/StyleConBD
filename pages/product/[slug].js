@@ -102,6 +102,18 @@ const ProductDetails = () => {
                             <IoMdHeartEmpty size={20} />
                         </button>
                         {/* WHISHLIST BUTTON END */}
+
+                        <div>
+                            <div className="text-lg font-bold mb-5">
+                                Product Details
+                            </div>
+                            <div className="markdown text-md mb-5">
+                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum laborum molestiae dolorem, sapiente quo nam ad iure quas, magnam voluptas in ullam numquam distinctio laboriosam delectus eveniet, veniam alias! Nesciunt.
+                            </div>
+                            <div className="markdown text-md mb-5">
+                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum laborum molestiae dolorem, sapiente quo nam ad iure quas, magnam voluptas in ullam numquam distinctio laboriosam delectus eveniet, veniam alias! Nesciunt.
+                            </div>
+                        </div>
             </div>
             {/* Right column end */}
             </div>

@@ -23,6 +23,16 @@ const CartItem = () => {
                     <div className="text-sm md:text-md font-medium text-black/[0.5] block md:hidden">
                         Men&apos;s Golf Shoes
                     </div>
+
+                    {/* PRODUCT PRICE */}
+                    <div className="text-sm md:text-md font-bold text-black/[0.5] mt-2">
+                        MRP : &#8377; 19 695.00
+                    </div>
+                </div>
+
+                 {/* PRODUCT SUBTITLE */}
+                 <div className="text-md font-medium text-black/[0.5] hidden md:block">
+                 Men&apos;s Golf Shoes
                 </div>
             </div>
     </div>

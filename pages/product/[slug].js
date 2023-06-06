@@ -85,6 +85,9 @@ const ProductDetails = () => {
                              </div>
                             </div>
                             {/* size end */}
+                            <div className="text-red-600 mt-1">
+                                    Size selection is required
+                                </div>
                         </div>
                          {/* product size range end */}
             </div>

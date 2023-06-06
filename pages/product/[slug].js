@@ -15,7 +15,16 @@ const ProductDetails = () => {
             {/* Left column end */}
 
             {/* Right column start */}
-            <div className="flex-[1] py-3">Right</div>
+            <div className="flex-[1] py-3">
+                {/* PRODUCT TITLE */}
+                <div className="text-[34px] font-semibold mb-2 leading-tight">
+                            Jordan Retro 6 6
+                        </div>
+                         {/* PRODUCT SUBTITLE */}
+                         <div className="text-lg font-semibold mb-5">
+                           Men&apos;s Golf Shoes
+                        </div>
+            </div>
             {/* Right column end */}
             </div>
            

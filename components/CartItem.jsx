@@ -34,6 +34,16 @@ const CartItem = () => {
                  <div className="text-md font-medium text-black/[0.5] hidden md:block">
                  Men&apos;s Golf Shoes
                 </div>
+
+                <div className="flex items-center justify-between mt-4">
+                      <div className="flex items-center gap-2 md:gap-10 text-black/[0.5] text-sm md:text-md">
+                        <div className="flex items-center gap-1">
+                             <div className="font-semibold">
+                                 Size:
+                             </div>
+                        </div>
+                      </div>
+                </div>
             </div>
     </div>
   )

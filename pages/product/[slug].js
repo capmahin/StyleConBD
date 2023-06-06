@@ -35,6 +35,11 @@ const ProductDetails = () => {
                         <div className="text-md font-medium text-black/[0.5] mb-20">
                             {`(Also includes all applicable duties)`}
                         </div>
+                        {/* product size range start */}
+                        <div className="mb-10">
+
+                        </div>
+                         {/* product size range end */}
             </div>
             {/* Right column end */}
             </div>

@@ -24,6 +24,11 @@ const ProductDetails = () => {
                          <div className="text-lg font-semibold mb-5">
                            Men&apos;s Golf Shoes
                         </div>
+
+                        {/* Product Price */}
+                        <div className="text-lg font-semibold">
+                           MRP: $ 19 695.00
+                        </div>
             </div>
             {/* Right column end */}
             </div>

@@ -37,7 +37,16 @@ const ProductDetails = () => {
                         </div>
                         {/* product size range start */}
                         <div className="mb-10">
-
+                       {/* HEADING START */}
+                            <div className="flex justify-between mb-2">
+                                <div className="text-md font-semibold">
+                                    Select Size
+                                </div>
+                                <div className="text-md font-medium text-black/[0.5] cursor-pointer">
+                                    Select Guide
+                                </div>
+                            </div>
+                            {/* HEADING END */}
                         </div>
                          {/* product size range end */}
             </div>

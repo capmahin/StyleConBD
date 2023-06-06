@@ -80,6 +80,9 @@ const ProductDetails = () => {
                              <div className="border rounded-md text-center py-3 font-medium  cursor-not-allowed bg-black/[0.1] opacity-50">
                                  UK 10.5
                              </div>
+                             <div className="border rounded-md text-center py-3 font-medium  cursor-not-allowed bg-black/[0.1] opacity-50">
+                                 UK 11
+                             </div>
                             </div>
                             {/* size end */}
                         </div>

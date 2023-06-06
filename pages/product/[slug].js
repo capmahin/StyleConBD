@@ -47,6 +47,13 @@ const ProductDetails = () => {
                                 </div>
                             </div>
                             {/* HEADING END */}
+
+                            {/* size start */}
+                            <div className="grid grid-cols-3 gap-2"
+>
+                             
+                            </div>
+                            {/* size end */}
                         </div>
                          {/* product size range end */}
             </div>

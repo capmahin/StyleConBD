@@ -7,7 +7,11 @@ import { useSelector } from "react-redux";
 
 const Cart = () => {
   return (
-    <div>cart</div>
+    <div className="w-full md:py-20">
+        <Wrapper>
+            
+        </Wrapper>
+    </div>
   )
 }
 

@@ -26,6 +26,31 @@ const Cart = () => {
                                 </div>
                                 </div>
                                  {/* CART ITEMS END */}
+
+                                 {/* SUMMARY START */}
+                                 <div className="flex-[1]">
+                                 <div className="text-lg font-bold">Summary</div>
+
+                                <div className="p-5 my-5 bg-black/[0.05] rounded-xl">
+                                    <div className="flex justify-between">
+                                        <div className="uppercase text-md md:text-lg font-medium text-black">
+                                            Subtotal
+                                        </div>
+                                        <div className="text-md md:text-lg font-medium text-black">
+                                            &#8377;SubTotal
+                                        </div>
+                                    </div>
+                                    <div className="text-sm md:text-md py-5 border-t mt-5">
+                                        The subtotal reflects the total price of
+                                        your order, including duties and taxes,
+                                        before any applicable discounts. It does
+                                        not include delivery costs and
+                                        international transaction fees.
+                                    </div>
+                                </div>
+
+                                 </div>
+                                 {/* SUMMARY End */}
                         </div>
                         {/* CART CONTENT End */}
         </Wrapper>

@@ -16,6 +16,18 @@ const Cart = () => {
                             </div>
                         </div>
                         {/* HEADING AND PARAGRAPH END */}
+
+                        {/* CART CONTENT START */}
+                        <div className="flex flex-col lg:flex-row gap-12 py-10">
+                        {/* CART ITEMS START */}
+                            <div className="flex-[2]">
+                                <div className="text-lg font-bold">
+                                    Cart Items
+                                </div>
+                                </div>
+                                 {/* CART ITEMS END */}
+                        </div>
+                        {/* CART CONTENT End */}
         </Wrapper>
     </div>
   )

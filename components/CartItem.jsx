@@ -18,6 +18,11 @@ const CartItem = () => {
                  <div className="text-lg md:text-2xl font-semibold text-black/[0.8]">
                         Jordan Retro 6 6
                     </div>
+
+                    {/* PRODUCT SUBTITLE */}
+                    <div className="text-sm md:text-md font-medium text-black/[0.5] block md:hidden">
+                        Men&apos;s Golf Shoes
+                    </div>
                 </div>
             </div>
     </div>

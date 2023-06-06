@@ -49,9 +49,10 @@ const ProductDetails = () => {
                             {/* HEADING END */}
 
                             {/* size start */}
-                            <div className="grid grid-cols-3 gap-2"
->
-                             
+                            <div className="grid grid-cols-3 gap-2">
+                             <div className="border rounded-md text-center py-3 font-medium hover:border-black cursor-pointer">
+                                 UK 6
+                             </div>
                             </div>
                             {/* size end */}
                         </div>

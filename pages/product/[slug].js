@@ -29,6 +29,12 @@ const ProductDetails = () => {
                         <div className="text-lg font-semibold">
                            MRP: $ 19 695.00
                         </div>
+                        <div className="text-md font-medium text-black/[0.5]">
+                            incl. of taxes
+                        </div>
+                        <div className="text-md font-medium text-black/[0.5] mb-20">
+                            {`(Also includes all applicable duties)`}
+                        </div>
             </div>
             {/* Right column end */}
             </div>

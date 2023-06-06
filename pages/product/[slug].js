@@ -53,6 +53,33 @@ const ProductDetails = () => {
                              <div className="border rounded-md text-center py-3 font-medium hover:border-black cursor-pointer">
                                  UK 6
                              </div>
+                             <div className="border rounded-md text-center py-3 font-medium hover:border-black cursor-pointer">
+                                 UK 6.5
+                             </div>
+                             <div className="border rounded-md text-center py-3 font-medium hover:border-black cursor-pointer">
+                                 UK 7
+                             </div>
+                             <div className="border rounded-md text-center py-3 font-medium hover:border-black cursor-pointer">
+                                 UK 7.5
+                             </div>
+                             <div className="border rounded-md text-center py-3 font-medium hover:border-black cursor-pointer">
+                                 UK 8
+                             </div>
+                             <div className="border rounded-md text-center py-3 font-medium hover:border-black cursor-pointer">
+                                 UK 8.5
+                             </div>
+                             <div className="border rounded-md text-center py-3 font-medium hover:border-black cursor-pointer">
+                                 UK 9
+                             </div>
+                             <div className="border rounded-md text-center py-3 font-medium hover:border-black cursor-pointer">
+                                 UK 9.5
+                             </div>
+                             <div className="border rounded-md text-center py-3 font-medium  cursor-not-allowed bg-black/[0.1] opacity-50">
+                                 UK 10
+                             </div>
+                             <div className="border rounded-md text-center py-3 font-medium  cursor-not-allowed bg-black/[0.1] opacity-50">
+                                 UK 10.5
+                             </div>
                             </div>
                             {/* size end */}
                         </div>

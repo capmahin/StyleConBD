@@ -41,6 +41,19 @@ const CartItem = () => {
                              <div className="font-semibold">
                                  Size:
                              </div>
+                             <select className="hover:text-black">
+                                <option value="1">UK 6</option>
+                                <option value="2">UK 6.5</option>
+                                <option value="3">UK 7</option>
+                                <option value="4">UK 7.5</option>
+                                <option value="5">UK 8</option>
+                                <option value="6">UK 8.5</option>
+                                <option value="7">UK 9</option>
+                                <option value="8">UK 9.5</option>
+                                <option value="9">UK 10</option>
+                                <option value="10">UK 10.5</option>
+                                <option value="11">UK 11</option>
+                             </select>
                         </div>
                       </div>
                 </div>
